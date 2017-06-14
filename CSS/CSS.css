@@ -18,7 +18,7 @@ body {
      
 }
 #flechaindex {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -32,13 +32,13 @@ body {
 }
 .fons1 {
     /*background*/
-    background-image: url(/Media/img/fons1.png);
+    background-image: url(fons1.png);
     width: 1920px;
     height: 1070px;
 }
 
 .contenidor {
-    background-image: url(/Media/img/volumlight.png);
+    background-image: url(volumlight.png);
     width: 100%;
     height: 100%;
 }
@@ -490,7 +490,7 @@ body {
 }
 
 #flechad {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -504,7 +504,7 @@ body {
 }
 
 #flechae {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -517,7 +517,7 @@ body {
     cursor: pointer;
 }
 #flechad1 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -531,7 +531,7 @@ body {
 }
 
 #flechae1 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -544,7 +544,7 @@ body {
     cursor: pointer;
 }
 #flechad2 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -557,7 +557,7 @@ body {
     cursor: pointer;
 }
 #flechae2 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -570,7 +570,7 @@ body {
     cursor: pointer;
 }
 #flechad3 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -583,7 +583,7 @@ body {
     cursor: pointer;
 }
 #flechae3 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -596,7 +596,7 @@ body {
     cursor: pointer;
 }
 #flechad4 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -609,7 +609,7 @@ body {
     cursor: pointer;
 }
 #flechae4 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -622,7 +622,7 @@ body {
     cursor: pointer;
 }
 #flechad5 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -635,7 +635,7 @@ body {
     cursor: pointer;
 }
 #flechae5 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -648,7 +648,7 @@ body {
     cursor: pointer;
 }
 #flechad6 {
-    background-image: url(/Media/img/flechadreta.png);
+    background-image: url(flechadreta.png);
     width: 100px;
     height: 80px;
     position: absolute;
@@ -661,7 +661,7 @@ body {
     cursor: pointer;
 }
 #flechae6 {
-    background-image: url(/Media/img/flechaesquerra.png);
+    background-image: url(flechaesquerra.png);
     width: 100px;
     height: 80px;
     position: absolute;
