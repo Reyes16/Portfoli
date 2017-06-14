@@ -1,0 +1,968 @@
+body {
+    /** cos fix de l'html **/
+    width: 1920px;
+    height: 1080px;
+}
+
+
+.contacts{
+   width: px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    font-size: 45px;
+    cursor: default;
+    color: white; 
+     
+}
+#flechaindex {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 760px;
+    left: 1250px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.fons1 {
+    /*background*/
+    background-image: url(/Media/img/fons1.png);
+    width: 1920px;
+    height: 1070px;
+}
+
+.contenidor {
+    background-image: url(/Media/img/volumlight.png);
+    width: 100%;
+    height: 100%;
+}
+.sketchfab{
+   width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 800px;
+    left: 1400px;
+    font-size: 45px;
+    cursor: default;
+    color: blue; 
+    text-shadow: white;
+    background-color: dimgray;
+}
+.modelatgemore{
+   width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 800px;
+    left: 1600px;
+    font-size: 45px;
+    cursor: default;
+    color: blue; 
+    text-shadow: white;
+    background-color: dimgray;
+}
+.textnone{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.portfoli {
+    /*title*/
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    left: 770px;
+    font-size: 100px;
+    cursor: default;
+    color: white;
+}
+
+.titolmodelatge {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    font-size: 75px;
+    cursor: default;
+    color: white;
+}
+
+.button {
+    /*button fila esquerra*/
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 50px;
+    top: 150px;
+    left: 700px;
+    cursor: pointer;
+}
+
+.button1 {
+    /* button fila dreta*/
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 50px;
+    top: -370px;
+    left: 1150px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 50px;
+    top: 90px;
+    left: 160px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.button3 {
+    width: 125px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 50px;
+    top: 90px;
+    left: 150px;
+    cursor: pointer;
+}
+#by{
+   
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 850px;
+    font-size: 40px;
+    cursor: default;
+    color: white; 
+}
+#castle1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    background: white;
+}#castle2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}#castle3{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}#castle4{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#stopmotion1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    z-index: 1;
+    background: white;
+}
+#unity1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    z-index: 1;
+    background: white;
+}
+#unity2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    z-index: 1;
+    background: white;
+}
+#anim1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    z-index: 1;
+    background: white;
+}
+#anim2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+     z-index: 1;
+    background: white;
+}
+#anim3{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+     z-index: 1;
+    background: white;
+}
+#anim4{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    background: white;
+}
+#anim5{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+     z-index: 1;
+    background: white;
+}
+#ilu1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    background: white;
+}
+#ilu2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#ilu3{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#ilu4{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#ilu5{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#photoshop3{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    background: white;
+}
+#photoshop1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#photoshop2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0;
+    background: white;
+}
+#dibuix {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    background: white;
+}
+
+#dibuix1 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    background: white;
+    opacity: 0;
+}
+
+#dibuix2 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    background: white;
+    opacity: 0;
+}
+
+#dibuix3 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    background: white;
+    opacity: 0;
+}
+
+#dibuix4 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    background: white;
+    opacity: 0;
+}
+
+#dibuix5 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    background: white;
+    opacity: 0;
+}
+
+#secador {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation z-index: 0;
+}
+#illa {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation z-index: 0;
+}
+#linx1 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation z-index: 0;
+    opacity: 0;
+    background-color: white;
+}
+#linx2 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation z-index: 0;
+    opacity: 0;
+    background-color: white;
+}
+#linx3 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation z-index: 0;
+    opacity: 0;
+    background-color: white;
+}
+#linx4 {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    height: 700px;
+    width: 1200px;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    z-index: 0;
+    opacity: 0;
+    background-color: white;
+}
+
+.scroll {
+    margin-top: position: fixed;
+    width: 1920px;
+    height: 1080px;
+}
+
+#flechad {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+#flechae {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad1 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+#flechae1 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad2 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechae2 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad3 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechae3 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad4 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechae4 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad5 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechae5 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechad6 {
+    background-image: url(/Media/img/flechadreta.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 1600px;
+    transform: scale(1.50);
+    animation-name: flechad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+#flechae6 {
+    background-image: url(/Media/img/flechaesquerra.png);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: scale(1.50);
+    animation-name: flechae;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+/* active + hover */
+
+#modelatge {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#modelatge:hover {
+    animation-play-state: running;
+}
+
+#modelatge:active {
+    background-color: crimson;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#photoshop {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#photoshop:hover {
+    animation-play-state: running;
+}
+
+#photoshop:active {
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#html5 {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#html5:hover {
+    animation-play-state: running;
+}
+
+#html5:active {
+    background-color: violet;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#animacio {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#animacio:hover {
+    animation-play-state: running;
+}
+
+#animacio:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#unity {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: darkgoldenrod;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#unity:hover {
+    animation-play-state: running;
+}
+
+#unity:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#index {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: darkgoldenrod;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#index:hover {
+    animation-play-state: running;
+}
+
+#index:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#stopmotion {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#stopmotion:hover {
+    animation-play-state: running;
+}
+
+#stopmotion:active {
+    background-color: orangered;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#escultura {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: darksalmon;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#escultura:hover {
+    animation-play-state: running;
+}
+
+#escultura:active {
+    background-color: darksalmon;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#iluminacio {
+    padding: 15px font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: saddlebrown;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    animation-name: boto;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+#iluminacio:hover {
+    animation-play-state: running;
+}
+
+#iluminacio:active {
+    background-color: saddlebrown;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* animacions */
+
+@keyframes boto {
+    /* botons grans y petits en hover*/
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes flechad {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+@keyframes flechae {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+
+/*@keyframes secador1{
+   
+    20%{transform: scale(1);}
+    30%{transform: scale(1.1);}
+    60%{left:0px;}
+    80%{transform: scale(0.6);}
+    
+}
+@keyframes secador2{
+    
+    20%{transform: scale(1);}
+    30%{transform: scale(1.1);}
+    60%{left:700px;}
+    80%{transform: scale(0.6);}
+    
+}
